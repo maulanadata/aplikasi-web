@@ -32,13 +32,13 @@
 			if ($hal=="home")
 				echo "active";?>" aria-current="page"> Home </a>
 		</li>
-<!-- 	<li class="nav-item">
+	<li class="nav-item">
 			<a href="?hal=siswa-semua" class="nav-link link-dark  <?php
 			if ($hal=="siswa-semua")
 				echo "active";?>"> Semua Siswa </a>
 		</li>
-##### saya masih gagal membuat pagination dengan banyak siswa #####
--->
+
+
 		<li class="nav-item">
 			<a href="?hal=siswa-calon" class="nav-link link-dark  <?php
 			if ($hal=="siswa-calon")
