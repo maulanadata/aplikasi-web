@@ -1,0 +1,85 @@
+#container{ 
+    width:100%;/*Lebar box*/ 
+    height:100%;/*Tinggi box*/ 
+    border:2px solid #919191; /*Border box*/ 
+    background:#e6e2e2;/*Background/warna box*/ 
+    margin:auto;/*Supaya box berada di tengah*/ 
+} 
+
+#header{ 
+    width:100%; 
+    height:100px; 
+    background:#7c7c7c; 
+    margin:auto; 
+    margin-top:0px;/*jarak box dengan box diatasnya di beri 0px*/ 
+} 
+
+#logo-bendera-container{
+	float:left;
+	width:6%;
+	height:50px;
+	padding:8px;
+}
+#logo-bendera{
+	height:50px;
+	margin-top:20px; 
+	margin-left:10px;
+}
+#nama-alamat-kursus-container{
+	float:left;
+	width:94%;
+	padding:10px;
+	height: 50px;
+	color: white;
+}
+.nama-alamat-kursus{
+	float:left;
+	width:100%;
+	text-align:center;
+	height: 50px;
+	color: white;
+}
+
+#navigasi{ 
+    width:100%; 
+    background:#6855fb; 
+    margin:auto; 
+} 
+
+#container2{ 
+    width:100%; 
+    height:500px; 
+    background:#c318b1; 
+    margin:auto; 
+} 
+
+#sidebar{ 
+    width:18%; 
+    height:500px;  
+    background:#ffffff; 
+    float:left;/*Supaya box berada di pinggir kiri*/
+} 
+
+#content{ 
+    width:81.7%; 
+    height:500px; 
+    background:#ffffff; 
+    float:left; 
+    margin-left:3px; 
+} 
+
+.jumbotronton{
+	margin-left:40px;
+}
+
+.home{
+	margin-left:40px;
+	margin-top:40px;
+}
+
+#footer{ 
+    width:100%;  
+	//* border:2px solid #919191; *//
+    margin:auto; 
+	clear:both;
+}
